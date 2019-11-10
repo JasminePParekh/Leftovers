@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1071665709747",
+    "firebase_url": "https://leftoverss-a01fd.firebaseio.com",
+    "project_id": "leftoverss-a01fd",
+    "storage_bucket": "leftoverss-a01fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071665709747:android:13a3d46563ffb720",
+        "android_client_info": {
+          "package_name": "com.example.jasmineparekh.leftoverss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071665709747-kqcmqnmghlubsu5rjdcu5ue54ao5e29b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jasmineparekh.leftoverss",
+            "certificate_hash": "fd7e0d5b87dcfc410334f880757a503ae1d3a4e4"
+          }
+        },
+        {
+          "client_id": "1071665709747-o2v9irjo1r7oalr650bvhubcd9g7r1a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG9pBZxC4EKYh4YoDJyUpcye17As2T7GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071665709747-o2v9irjo1r7oalr650bvhubcd9g7r1a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
