@@ -38,11 +38,18 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         Button cookin = findViewById(R.id.cookin);
+        Button fridge = findViewById(R.id.fridge);
 
         cookin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(StartActivity.this, MainActivity.class));
+            }
+        });
+        fridge.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StartActivity.this, FridgeActivity.class));
             }
         });
 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="85dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/rName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expiry Date" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/colorTab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@color/colorTextIcons" />
+
+</LinearLayout>

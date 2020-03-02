@@ -28,19 +28,6 @@
         android:layout_marginTop="94dp"
         android:src="@drawable/leftovers_logo" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="11dp"
-        android:fontFamily="@font/bad_script"
-        android:text="RAJ Productions"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
     <Button
         android:id="@+id/cookin"
         android:layout_width="200dp"
@@ -58,6 +45,29 @@
 
         />
 
+    <Button
+        android:id="@+id/fridge"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginLeft="109dp"
+        android:layout_marginEnd="103dp"
+
+
+        android:layout_marginRight="103dp"
+        android:layout_marginBottom="217dp"
+        android:background="@android:color/background_light"
+        android:fontFamily="@font/alegreya"
+        android:text="Go to My Fridge"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <View
         android:id="@+id/divider4"
         android:layout_width="209dp"
@@ -65,6 +75,18 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="106dp"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="209dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginBottom="214dp"
         android:background="@android:color/black" />
 
 </RelativeLayout>

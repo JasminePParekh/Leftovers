@@ -3,6 +3,7 @@
     package="com.example.jasmineparekh.leftoverss">
 
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -22,6 +23,10 @@
 
         </activity>
         <activity android:name=".RecipeListActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".FridgeActivity"
             android:screenOrientation="portrait">
 
         </activity>

@@ -10,9 +10,6 @@ public class Recipe implements Parcelable{
     private String[] ingredients;
     private String pushId;
 
-    public Recipe(){
-
-    };
 
     public Recipe(String name, String imageUrl, String sourceUrl, String ingredients) {
         this.name = name;
